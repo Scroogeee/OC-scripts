@@ -1,0 +1,3 @@
+local filesystem = require("filesystem")
+local proxy = ...
+filesystem.mount(proxy, "/key")
