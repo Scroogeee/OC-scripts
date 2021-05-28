@@ -91,4 +91,5 @@ local function run()
 end
 
 --execution
+shell.execute("resolution 20 6")
 run()
